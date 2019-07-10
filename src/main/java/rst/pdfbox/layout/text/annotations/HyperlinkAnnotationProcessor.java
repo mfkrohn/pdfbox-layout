@@ -133,8 +133,8 @@ public class HyperlinkAnnotationProcessor implements AnnotationProcessor {
 
 	public PageAnchor(PDPage page, float x, float y) {
 	    this.page = page;
-	    this.x = x;
-	    this.y = y;
+	    this.x = y;
+	    this.y = x;
 	}
 
 	public PDPage getPage() {
